@@ -95,7 +95,7 @@ int binary_tree_is_heap(const binary_tree_t *tree);
 heap_t *heap_insert(heap_t **root, int value);
 bst_t *swap(bst_t *a, bst_t *b);
 char *convert(unsigned long int num, int base, int lowercase);
-
+heap_t *array_to_heap(int *array, size_t size);
 
 
 #endif /* BINARY_TREES_H */
