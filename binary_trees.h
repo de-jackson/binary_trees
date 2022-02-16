@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <stdbool.h>
+#include <string.h>
 #include <limits.h>
 
 
@@ -91,5 +92,10 @@ avl_t *sorted_array_to_avl(int *array, size_t size);
 
 /* Binary Tree to heap */
 int binary_tree_is_heap(const binary_tree_t *tree);
+heap_t *heap_insert(heap_t **root, int value);
+bst_t *swap(bst_t *a, bst_t *b);
+char *convert(unsigned long int num, int base, int lowercase);
+
+
 
 #endif /* BINARY_TREES_H */
