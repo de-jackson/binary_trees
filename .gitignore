@@ -48,3 +48,5 @@
 104-rotr
 110-main.c
 110-is_bst
+111-main.c
+111-bst_insert
