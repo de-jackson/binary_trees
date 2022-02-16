@@ -50,3 +50,5 @@
 110-is_bst
 111-main.c
 111-bst_insert
+112-main.c
+112-bst_array
