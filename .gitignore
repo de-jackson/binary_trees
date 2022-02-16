@@ -46,3 +46,5 @@
 103-rotl
 104-main.c
 104-rotr
+110-main.c
+110-is_bst
