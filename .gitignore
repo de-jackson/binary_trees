@@ -66,3 +66,5 @@
 123-avl_rm
 124-main.c
 124-avl_sorted
+130-main.c
+130-is_heap
